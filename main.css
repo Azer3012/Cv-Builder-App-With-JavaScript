@@ -1,0 +1,312 @@
+.info .inputBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.info .inputBox .inputSpan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  text-transform: capitalize;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.info .inputBox input {
+  width: 200px;
+}
+
+.info .inputBox select {
+  width: 200px;
+}
+
+.info .inputBox textarea {
+  width: 200px;
+}
+
+.info .inputBox button {
+  width: 60px;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 5px;
+}
+
+.info .download {
+  width: 80px !important;
+}
+
+.pdf {
+  margin: 0 auto;
+  width: 816px;
+  height: 11in;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pdf .left {
+  width: 40%;
+  background: #8e0033;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+  padding-left: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.pdf .left .about {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pdf .left .birthday {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pdf .left .birth {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .left .cins {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pdf .left .male {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .left .nationality {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pdf .left .azerbaijan {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .left .relation {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pdf .left .relation-type {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .left .army {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pdf .left .army-type {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .left .car-passport {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pdf .left .passport {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .left .contact {
+  font-size: 20px;
+  font-size: 700;
+}
+
+.pdf .left .address {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pdf .left .unvan {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .left .mobile {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pdf .left .phone-number {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .left .home-phone {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pdf .left .home-number {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .left .image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-size: cover;
+  margin: 30px auto;
+}
+
+.pdf .right {
+  width: 60%;
+  border: 1px solid #dddddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.pdf .right .cv-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: #a1a1a193;
+  margin-top: 50px;
+}
+
+.pdf .right .education {
+  font-size: 20px;
+  font-weight: 700;
+  color: #8e0033;
+  margin-top: 70px;
+}
+
+.pdf .right .univer {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pdf .right .faculty {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.pdf .right .univer-date {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pdf .right .experience {
+  font-size: 20px;
+  font-weight: 700;
+  color: #8e0033;
+}
+
+.pdf .right .work-menu .works .company {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pdf .right .work-menu .works .job {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.pdf .right .work-menu .works .work-date {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pdf .right .skils {
+  font-size: 20px;
+  font-weight: 700;
+  color: #8e0033;
+}
+
+.pdf .right .skil-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pdf .right .skil-menu .skil-item {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid #eeeeee;
+  min-width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.pdf .right .language {
+  font-size: 20px;
+  font-weight: 700;
+  color: #8e0033;
+}
+
+.pdf .right .language-menu .langs {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=main.css.map */
